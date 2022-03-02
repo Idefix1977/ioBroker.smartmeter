@@ -3,6 +3,9 @@
         "name": "smartmeter",
         "version": "3.3.3",
         "news": {
+            "3.3.4": {
+                "de": "Support für DLMS/COSEM verschlüsselt mit GUEK ohne Authentifizierung"
+            },
             "3.3.3": {
                 "en": "IMPORTANT: This version requires at least Node.js 12.17+ (excluding non LTS like 13.x)\nPrevent some crash cases",
                 "de": "WICHTIG: Diese Version erfordert mindestens Node.js 12.17+ (außer Nicht-LTS wie 13.x)\nVerhindern Sie einige Absturzfälle",
@@ -277,7 +280,8 @@
             "SML",
             "D0",
             "eHz",
-            "OBIS"
+            "OBIS",
+            "DLMS/COSEM"
         ],
         "loglevel": "info",
         "enabled": true,
