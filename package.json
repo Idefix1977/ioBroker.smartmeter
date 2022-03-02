@@ -12,7 +12,8 @@
     "SML",
     "D0",
     "eHz",
-    "OBIS"
+    "OBIS",
+    "DLMS/COSEM"
   ],
   "engines": {
     "node": ">=12.17.0 <13.0 || >=14.0.0"
